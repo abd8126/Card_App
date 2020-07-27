@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'ui/home.dart';
 
 main() {
-  runApp(Myhot());
+  runApp(MyApp());
 }
 
-class Myhot extends StatelessWidget {
-  build(BuildContext c1) {
-    return Myapp();
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return myapp1();
   }
 }
